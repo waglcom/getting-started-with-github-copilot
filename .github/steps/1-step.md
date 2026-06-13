@@ -1,6 +1,6 @@
 ## Step 1: Hello Copilot
 
-**"Getting Started with GitHub Copilot"** 실습에 오신 것을 환영합니다.
+**"GitHub Copilot 시작하기"** 실습에 오신 것을 환영합니다.
 
 이 실습에서는 Mergington High School 학생들이 방과 후 활동에 신청할 수 있는 웹사이트를 사용합니다. GitHub Copilot의 여러 기능을 사용해 프로젝트를 이해하고, 실행하고, 이후 단계에서 코드를 개선합니다.
 
@@ -42,7 +42,7 @@ Copilot은 `github.com`과 VS Code, JetBrains IDE, Xcode 같은 다양한 개발
 1. **Repository** 필드가 원본 저장소가 아니라 내 실습 저장소인지 확인합니다. 그런 다음 초록색 **Create Codespace** 버튼을 클릭합니다.
 
    - 올바른 저장소: `/{{full_repo_name}}`
-   - 원본 저장소: `/skills/getting-started-with-github-copilot`
+   - 원본 저장소: `/waglcom/getting-started-with-github-copilot`
 
 1. 브라우저에서 Visual Studio Code가 로드될 때까지 기다립니다.
 

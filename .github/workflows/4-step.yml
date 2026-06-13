@@ -51,7 +51,7 @@ jobs:
           repository: ${{ env.ISSUE_REPOSITORY }}
           issue-number: ${{ env.ISSUE_NUMBER }}
           comment-id: ${{ steps.find-last-comment.outputs.comment-id }}
-          file: exercise-toolkit/markdown-templates/step-feedback/checking-work.md
+          file: .github/markdown-templates/step-feedback/checking-work.md
           edit-mode: replace
 
       # START: Check practical exercise
@@ -87,9 +87,9 @@ jobs:
           vars: |
             step_number: 4
             results_table:
-              - description: "Checked for pytest in requirements.txt"
+              - description: "requirements.txt에 pytest가 추가되었는지 확인했습니다"
                 passed: ${{ steps.check-for-pytest.outcome == 'success' }}
-              - description: "Checked if tests are added in a separate directory"
+              - description: "별도의 tests 디렉터리에 테스트가 추가되었는지 확인했습니다"
                 passed: ${{ steps.check-tests-dir.outcome == 'success' }}
 
       # END: Check practical exercise
@@ -122,7 +122,7 @@ jobs:
         with:
           repository: ${{ env.ISSUE_REPOSITORY }}
           issue-number: ${{ env.ISSUE_NUMBER }}
-          file: exercise-toolkit/markdown-templates/step-feedback/step-finished-prepare-next-step.md
+          file: .github/markdown-templates/step-feedback/step-finished-prepare-next-step.md
           vars: |
             next_step_number: 5
 
@@ -138,7 +138,7 @@ jobs:
         with:
           repository: ${{ env.ISSUE_REPOSITORY }}
           issue-number: ${{ env.ISSUE_NUMBER }}
-          file: exercise-toolkit/markdown-templates/step-feedback/watching-for-progress.md
+          file: .github/markdown-templates/step-feedback/watching-for-progress.md
 
       - name: Disable current workflow and enable next one
         run: |

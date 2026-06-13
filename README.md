@@ -23,7 +23,7 @@ _1시간 이내에 GitHub Copilot의 핵심 사용 흐름을 연습합니다._
 
 아래 버튼으로 실습 저장소를 내 계정에 복사하세요. 그런 다음 Mona가 첫 번째 레슨을 준비할 수 있도록 **약 20초 기다린 뒤 페이지를 새로고침**하세요.
 
-[![](https://img.shields.io/badge/%EC%8B%A4%EC%8A%B5%20%EB%B3%B5%EC%82%AC-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=getting-started-with-github-copilot&owner=%40me&name=skills-getting-started-with-github-copilot&description=GitHub+Copilot+%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0+%EC%8B%A4%EC%8A%B5&visibility=public)
+[![](https://img.shields.io/badge/%EC%8B%A4%EC%8A%B5%20%EB%B3%B5%EC%82%AC-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=waglcom&template_name=getting-started-with-github-copilot&owner=%40me&name=skills-getting-started-with-github-copilot&description=GitHub+Copilot+%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0+%EC%8B%A4%EC%8A%B5&visibility=public)
 
 <details>
 <summary>문제가 있나요?</summary><br/>
