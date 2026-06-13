@@ -36,6 +36,34 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Localize exercise landing README
+        shell: bash
+        run: |
+          cat > README.md <<'EOF'
+          # GitHub Copilot 시작하기
+
+          안녕하세요, @${{ github.actor }}님!
+
+          Mona가 실습 환경 준비를 마쳤습니다. 이제 단계별 안내에 따라 GitHub Copilot의 주요 개발 흐름을 연습해 보세요.
+
+          이 실습은 각자 속도에 맞춰 진행할 수 있습니다. 중간에 쉬었다가 다시 이어서 진행해도 괜찮습니다.
+
+          [![실습 시작하기](https://img.shields.io/badge/%EC%8B%A4%EC%8A%B5%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/${{ github.repository }}/issues/${{ env.ISSUE_NUMBER }})
+
+          ---
+
+          &copy; 2025 GitHub &bull; [행동 강령](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT 라이선스](LICENSE)
+          EOF
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Localize exercise landing page [skip ci]"
+            git push origin HEAD:main
+          fi
 
       - name: Get response templates
         uses: actions/checkout@v6

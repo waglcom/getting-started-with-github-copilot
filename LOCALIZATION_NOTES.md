@@ -68,8 +68,10 @@
 - `src/static/styles.css`에 한국어 폰트 fallback을 추가했습니다.
 - `src/app.py`는 기능 로직을 바꾸지 않고 문서 문자열과 주석만 정리했습니다.
 - `README.md`의 실습 복사 링크가 원본 영어 템플릿이 아니라 이 한국어 템플릿 저장소를 사용하도록 수정했습니다.
+- `README.md`의 실습 복사 링크가 새 저장소 기본 이름으로 `skills-getting-started-with-github-copilot`을 사용하도록 확인했습니다.
 - Mona의 자동 검증 결과 설명 문구를 한국어로 정리했습니다.
 - Mona의 진행 상태 댓글이 외부 영어 템플릿 대신 저장소 내부 한국어 템플릿을 사용하도록 정리했습니다.
+- 실습 시작 시 `skills/exercise-toolkit`이 생성하는 영어 랜딩 README를 한국어 랜딩 README로 다시 커밋하도록 정리했습니다.
 
 ## 검증 기록
 
@@ -84,11 +86,13 @@
 - `python -m py_compile src/app.py` 통과
 - `git diff --check` 통과
 - `README.md`의 `template_owner`가 `waglcom`인지 확인
+- `README.md`의 새 저장소 기본 `name` 값이 `skills-getting-started-with-github-copilot`인지 확인
 - Mona 진행 상태 템플릿 경로가 `.github/markdown-templates/step-feedback/`를 사용하는지 확인
+- 새 실습 저장소의 랜딩 README가 한국어 문구와 실습 이슈 링크를 사용하도록 확인
 
 ## 의도적으로 하지 않은 작업
 
-- 실습 복사 링크, Mona 상태 댓글 템플릿 경로, Mona 검증 결과 문구를 제외한 `.github/workflows` 자동화 구조는 수정하지 않았습니다.
+- 실습 복사 링크, Mona 상태 댓글 템플릿 경로, Mona 검증 결과 문구, 랜딩 README 재작성 단계를 제외한 `.github/workflows` 자동화 구조는 수정하지 않았습니다.
 - `.github/steps` 파일명과 경로는 변경하지 않았습니다.
 - API 엔드포인트, 파라미터 이름, 검증용 문자열은 변경하지 않았습니다.
 - Step 2에서 학습용으로 남아 있어야 하는 초기 버그 흐름은 수정하지 않았습니다.

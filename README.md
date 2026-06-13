@@ -31,6 +31,7 @@ _1시간 이내에 GitHub Copilot의 핵심 사용 흐름을 연습합니다._
 실습을 복사할 때는 다음 설정을 권장합니다.
 
 - **Owner**에는 개인 계정 또는 저장소를 둘 조직을 선택합니다.
+- **Repository name**은 기본값인 `skills-getting-started-with-github-copilot`을 사용합니다.
 - 공개 저장소를 권장합니다. 비공개 저장소는 GitHub Actions 시간을 사용할 수 있습니다.
 
 20초 뒤에도 실습이 준비되지 않으면 [Actions](../../actions) 탭을 확인하세요.
@@ -42,4 +43,4 @@ _1시간 이내에 GitHub Copilot의 핵심 사용 흐름을 연습합니다._
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2025 GitHub &bull; [행동 강령](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT 라이선스](https://gh.io/mit)
