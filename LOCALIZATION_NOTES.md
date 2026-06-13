@@ -71,7 +71,7 @@
 - `README.md`의 실습 복사 링크가 새 저장소 기본 이름으로 `skills-getting-started-with-github-copilot`을 사용하도록 확인했습니다.
 - Mona의 자동 검증 결과 설명 문구를 한국어로 정리했습니다.
 - Mona의 진행 상태 댓글이 외부 영어 템플릿 대신 저장소 내부 한국어 템플릿을 사용하도록 정리했습니다.
-- 실습 시작 시 `skills/exercise-toolkit`이 생성하는 영어 랜딩 README를 한국어 랜딩 README로 다시 커밋하도록 정리했습니다.
+- 실습 시작 시 `skills/exercise-toolkit`이 생성하는 영어 랜딩 README를 별도 `Localize landing page` job에서 한국어 랜딩 README로 다시 커밋하도록 정리했습니다.
 
 ## 검증 기록
 
